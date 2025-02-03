@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "gopi4678/docker2"
+        DOCKER_IMAGE = "gopi4678/dockertask2"
         DOCKER_CREDENTIALS = "dockerhub-credential"
     }
 
