@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/gopi4678/pro1.git'
+                git branch: 'main', url: 'https://github.com/gopi4678/pro1.git'
             }
         }
 
